@@ -7,7 +7,7 @@ Some links for ***FALSE*** [#](http://wiki.c2.com/?FalseLanguage) [##](http://st
 ### About EF
 
 - replasment of [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) [Perl](https://en.wikipedia.org/wiki/Perl) [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)) ...
-- designing an as powerful language as possible with a tiny implementation
+- designing an as ***powerful language*** as possible with a tiny implementation
 - [stl](https://en.wikipedia.org/wiki/Standard_Template_Library) only 
 - stack based [Reverse Polish notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
 - ***threads*** support
