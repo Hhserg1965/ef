@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/svn/gsh/!svn/ver/190/lib
+END
+libmcachjs.so
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/gsh/!svn/ver/215/lib/libmcachjs.so
+END
+libmongojs.so
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/gsh/!svn/ver/215/lib/libmongojs.so
+END
+libmyjs.so.1.0.0
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/gsh/!svn/ver/190/lib/libmyjs.so.1.0.0
+END
+libmyjs.so.1.0
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/gsh/!svn/ver/112/lib/libmyjs.so.1.0
+END
+libmyjs.so.1
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/gsh/!svn/ver/112/lib/libmyjs.so.1
+END
+libmyjs.so
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/gsh/!svn/ver/112/lib/libmyjs.so
+END

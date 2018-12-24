@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>fileTypes</key>
+    <array>
+        <string>ef</string>
+    </array>
+    <key>name</key>
+    <string>EF</string>
+    <key>patterns</key>
+    
+    <array>
+        <dict>
+            <key>include</key>
+            <string>source.ef</string>
+        </dict>
+	<dict>
+		<key>match</key>
+		<string>(\b|^\s*)(?i)(RUN|TM|TH)\b</string>
+		<key>name</key>
+		<string>keyword.command.myExt</string>
+	</dict>
+
+	<dict>
+		<key>match</key>
+		<string>\b(T|true)\b</string>
+		<key>name</key>
+		<string>constant.boolean.true.myExt</string>
+	</dict>
+	
+	<dict>
+		<key>match</key>
+		<string>\s+|[{}\[\]\(\),:](T|true|F|false|N|null)\s+|[{}\[\]\(\),:]</string>
+		<key>name</key>
+		<string>constant.boolean.true.myExt</string>
+	</dict>
+
+	<dict>
+		<key>name</key>
+		<string>Comments</string>
+		<key>scope</key>
+		<string>source.ef</string>
+		<key>settings</key>
+		<dict>
+			<key>shellVariables</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>TM_COMMENT_START</string>
+					<key>value</key>
+					<string># </string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+
+
+    </array>
+    
+    <key>scopeName</key>
+    <string>source.haskell.myExt</string>
+    <key>uuid</key>
+    <string></string>
+</dict>
+</plist>

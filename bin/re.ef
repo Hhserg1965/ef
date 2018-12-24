@@ -1,0 +1,29 @@
+#
+0 gdvr_re gdvr_re'((^gd~)|(^vr~))'RE .
+'gd~khkjh'gdvr_re ?[('дА----gdvr_re--------'l)('НЕЕЕЕ+++++++gdvr_re+++++++'l)]
+REQ ls
+
+
+0 re1 re1'gd~'RE .
+'gd~khkjhgd~'re1 ?[('дА----gdvr_re--------'l)('НЕЕЕЕ+++++++gdvr_re+++++++'l)]
+REQ  ls
+
+#'GET /?ff=gg&tt=Это все ерунда HTTP/1.1'
+#GET~ /?~ff=gg&tt=Это все ерунда~ HTTP/1.1'
+#
+
+0 eq_re eq_re'([^\=]+)(=)?([\S]*)'RE .
+
+0 rh_re rh_re'^([\S]+)[\s\?\/]+([\s\S]+?)(\sHTTP[\S]+)?$'RE .
+'GET /?ff=gg&tt=Это все ерунда HT_P/1.1'rh_re ?()
+REQ 
+
+#'tt=%26%D0%AD%D1%82%D0%BE%20%D0%B2=%D1%81%D0%B5%20%D0%B5%D1%80%D1%83%D0%BD%D0%B4%D0%B0'eq_re ?()
+'favicon.ico'eq_re ?()
+eq_re REQ
+
+#'Где-то бродят медведи Google'UE UD
+
+ls
+
+E

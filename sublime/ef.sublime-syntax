@@ -1,0 +1,100 @@
+%YAML 1.2
+---
+name: EF
+file_extensions: [ef]
+scope: source.ef
+
+contexts:
+  main:
+    - include: comments
+    - include: line_comment
+    - include: number
+    - include: constant 
+#    - include: array 
+    - match: (?<!->)\b(RUN|LD|SP|RE|sE|sL|sC|sA|sR|sW|sRR|sWR|REQ|UDP|TMI|NL|JN|INC|R|B|.I|RP|l|ls|lg|Q|M|S|D|CQ|CM|CS|CD|C|TS|FS|K|V|SR|RS|TP|E|UT|SL|TM|TH|TID|LC|RL|WL|RU|WU|DB|SQL|EX|NX|PR|ER|RW|RD|RDB|WR|mq|PID|RM|REN|MKD|DIR|CDIR|KILL|L)\b
+      scope: keyword.control.perl
+    - match: ([\(|\)])
+      scope: keyword.control.perl
+    - match: ([\[|\]])
+      scope: constant.character.escape.c
+    - match: ([\{|\}])
+      scope: keyword.control.perl
+    - match: '"'
+      push: string
+    - match: "'"
+      push: string2
+        
+  string:
+    - meta_scope: string.quoted.double.c
+    - match: \\.
+      scope: constant.character.escape.c
+    - match: '"'
+      pop: true
+      
+  string2:
+    - meta_scope: string.quoted.double.c
+    - match: \\.
+      scope: constant.character.escape.c
+    - match: "'"
+      pop: true   
+      
+  line_comment:
+    - match: ^((#).*$\n?)
+      scope: meta.comment.full-line.perl
+      captures:
+        1: comment.line.number-sign.perl
+        2: punctuation.definition.comment.perl
+    - match: (#).*$\n?
+      scope: comment.line.number-sign.perl
+      captures:
+        1: punctuation.definition.comment.perl   
+        
+  b_comment:
+    - match: ((##).*(##)?)
+      scope: meta.comment.full-line.perl
+      captures:
+        1: comment.line.number-sign.perl
+        2: punctuation.definition.comment.perl
+        
+  comments:
+    - match: '##'
+      scope: punctuation.definition.comment.json
+      push:
+        - meta_scope: comment.block.json
+        - match: '##'
+          pop: true
+    - match: (#).*$\n?
+      scope: comment.line.double-slash.js
+      captures:
+        1: punctuation.definition.comment.json
+
+  number:
+    # handles integer and decimal numbers
+    - match: |-
+        (?x:         # turn on extended mode
+          -?         # an optional minus
+          (?:
+            0        # a zero
+            |        # ...or...
+            [1-9]    # a 1-9 character
+            \d*      # followed by zero or more digits
+          )
+          (?:
+            (?:
+              \.     # a period
+              \d+    # followed by one or more digits
+            )?
+            (?:
+              [eE]   # an e character
+              [+-]?  # followed by an option +/-
+              \d+    # followed by one or more digits
+            )?       # make exponent optional
+          )?         # make decimal portion optional
+        )
+      scope: constant.numeric.json 
+      
+  constant:
+    - match: \b(?:true|false|null|T|F|N)\b
+      scope: constant.language.json
+      
+

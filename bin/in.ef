@@ -1,0 +1,6 @@
+(aa bb bb)mq
+20 N ~(v0 '%.f HALLO!'P l)
+20 ~(v0 '%.f HALLO!'P l)
+#[(?? ) 100]TM
+#PID $ l KILL
+E

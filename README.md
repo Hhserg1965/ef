@@ -1,0 +1,33 @@
+![ef](./ef.png "EF (Efficient Functional)")
+
+### EF (Efficient [Functional](https://en.wikipedia.org/wiki/Functional_programming)) or (Extended [False](https://esolangs.org/wiki/FALSE) ?) scripting language
+
+Some links for ***FALSE*** [#](http://wiki.c2.com/?FalseLanguage) [##](http://strlen.com/false-language/)  [###](https://ru.wikipedia.org/wiki/FALSE) 
+
+### About EF
+
+- [stl](https://en.wikipedia.org/wiki/Standard_Template_Library) only 
+- threads support
+- timers
+- **ef** based on [uv](https://github.com/libuv/libuv)
+- easy make addons - plugins
+
+***Binary Releases for Debian*** [bin](./bin)
+
+Projects files on [Qt Creator](https://www.qt.io/)
+
+#### API hjs
+Look at [Bitches Brew](./bb.cpp  "bb.cpp ")  as [Miles](https://en.wikipedia.org/wiki/Miles_Davis) and find some...  
+**hjs** have a graphical user interface [gui.cpp](./gui.cpp)  
+linked with `-lcurl -lz -lv8 QT += core gui sql webkit`  
+[fever test example](./bin/in.js) [screenshorts](./screens) [1](./screens/1.png)
+[2](./screens/2.png) [3](./screens/3.png)
+
+
+#### Plugins
+
+[leveldb core](./ef_proj/ef_lev/ef_lev.cpp "ef_lev.cpp") **->** [leveldb example](./bin/lev.ef "lev.ef")
+
+[***License***](https://www.gnu.org/licenses/gpl.html "GPL")
+
+[mail](mailto:hserg1965@rambler.ru "Send...")

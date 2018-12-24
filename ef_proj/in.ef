@@ -1,0 +1,91 @@
+['ii.ef','i']INC
+
+#0 bc bc["10.100.22.5" "10.100.22.255:9097"]UDP .
+0 srv
+(aa bb bb)mq
+
+
+#lg
+aa
+
+{'a' 12312,'b'[1 3 5 76 T F N 'разработка интересного языка'] '66'555 'm' [{} 44 55 []] '111'1 '8' 'fgsdgsd'} #ls
+$'123.11'WR $ N WR
+
+'это просто текст записи','11.tt'WR
+
+
+#bb
+
+(?? TID'tid: %.f 'P @'нить: %.f'P + l %  1000 SL RP)нитя
+#(?? l  1000 SL RP)tfnc
+
+##
+#0'0x80' ls . ls
+'это я'$ S1 $1 S1D $ '%X'P 
+
+0x80'%05X'P
+#ls
+
+123456 l PID er ls
+'ttt','t1'REN ls
+'ddd'MKD 
+CDIR
+ls
+N DIR ls
+##
+
+#TID'tid: %.f 'P ls
+#10 ~(aa Q ^ нитя + v0 + l cc tt TH)
+#'Makefile'RD ls
+0 база['hhser','potok','ws_us','websearch']DB =N ?[() ( база v1 .)] #% 
+0 мир мир[база 'SELECT rus_name, eng_name, rus_cap, eng_cap, id FROM world;' T]SQL .
+#ls 
+#lg
+
+мир(>> =N ? R   % RP) %
+RW
+
+#ls
+0 wd['hhser','world','ws_us','websearch']DB =N ?[() ( wd v1 .)] % 
+0 t_get t_get[wd 'SELECT * FROM t;']SQL .
+tt
+!!(>> =N ? R   % RP) %
+
+0 t_ins t_ins[wd 'INSERT INTO t(ci, cd, cs, cb)VALUES ($1,$2,$3,$4);']SQL .
+#[2343 33467 'dfgdgstrtet' F]!!
+
+#300 ~(t_ins Q v0 25000 + + (v0 50.1 +)+ 'Запись'+ F + EX)
+
+#ls
+PID ls
+#['mkdir' 'test-dir' '-DIR:./q']RUN
+#['mkdir' 'test-dir' ]RUN
+#['gedit' 'hjs.pro.user' '-DIR:../']RUN
+cc
+ls
+%<
+bb
+ls
+ee
+srv 4321 sL .
+ls
+tt
+# таймера
+[(?? N RD $ N != ?(ls i.f5) ) 100]TM
+
+0 zz(?? zz ++ l UT'Таймер: %.f'P TID' TID: %.f 'P + ls )быстро
+#[быстро 500]TM
+
+#PID,KILL
+
+dd
+lg
+ls
+
+#[(?? RD l % 0 SL RP) bc]TH
+#[('ЭТО ПЕРЕДАЧА по БК!' A TS + bc WR ) 1500]TM
+ls
+"['q',23,{'1':567}]
+"FS ls
+
+'./ef_lev/libef_lev.so'LD

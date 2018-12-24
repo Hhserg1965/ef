@@ -1,0 +1,68 @@
+'/opt/lib/libef_lev.so'LD
+'/opt/lib/libef_mc.so'LD
+'/opt/lib/libef_my.so'LD
+'/opt/lib/libef_curl.so'LD
+
+0 rh_re rh_re'^([\S]+)[\s\?\/]+([\s\S]+?)(\sHTTP[\S]+)?$'RE .
+0 eq_re eq_re'([^\=]+)(=)?([\S]*)'RE .
+
+0 wrk_flg ''nadr 5000 port '10.100.22.5'adr '10.100.22.255:9097'udpadr 'eb_h.cf'cfgf 0 cfg 'eb_m.cf'cfmf 0 mcs 0 srv
+{}ebhw {}ebhtm 
+
+(A v21 ++ * .)Aset
+A ~($ ?{
+	'-p':(port Aset ),
+	'-a':(adr Aset),
+	'-u':(udpadr Aset),
+	'-c':(cfgf Aset),
+})
+
+nadr S adr + port':%.f'P + .
+cfg cfgf RD FS .
+mcs cfmf RD mc.N .
+srv port sL .
+
+(?? ('ob_f----------'l)
+	$ sRR $ 0 * NL SP 0 * $ rh_re ?[(#('OK RE--'l)
+		rh_re REQ $ 2 * '&'SP M \ ~($ eq_re ?()eq_re REQ $ 1 * Q \ UD + $1 3 * UD + v3 \+ ) 
+		Q
+		($ S'HР*'+ NL +'&ИИИ'+ NL +'T'+ +'Новый!!!'+)
+		v10 \ sWR
+		ls
+	)(
+		('NNNNOOO RE--'l)
+	)]
+
+	#(v10 Q S'H1*'+ NL +'&'+ NL +'T'+ +'OkOkOk!!!'+ l sWR)
+(v10 sE))ob_f
+
+(?? sA =N ? RP
+	(Q ^ ob_f + v0 +  TH )
+RP)srv_f
+
+#ls
+
+
+# бродкаст
+wrk_flg 99 .
+0 bc bc Q adr + udpadr + UDP .
+(Q nadr + wrk_flg 0 != + TMI + TS bc WR ) udp_send_f
+
+[(?? RD FS l
+	cfg ~(~($ $ nadr = ? R v13 0 * != ? R
+		v13 1 * ebhw v0 * =N ?(ebhw Q v10 + v1 + + udp_send_f)=N ? R
+		D(v23 2 * $ ebhtm v10 * > ?[(ebhtm Q v20 + v0 + + )(99 .v10)] )0 != ? R
+		(v0 v1 != ?(ebhw Q v20 + v11 + + v11 ?(udp_send_f)))
+		#ls
+	))
+	 
+RP) bc
+]TH
+
+#
+(wrk_flg 0 . udp_send_f lg)mq
+[udp_send_f 100000]TM
+[(?? ) 300]TM
+srv =N ?[(E)(udp_send_f
+	Q ^ srv_f + srv + TH
+)]

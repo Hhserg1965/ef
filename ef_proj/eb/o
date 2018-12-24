@@ -1,0 +1,182 @@
+
+['10.100.22.5:5000',T,'5A180630000001'
+]
+'ob_f----------'
+'ob_f----------'
+
+['H1*
+&
+T','OkOkOk!!!'
+]
+H1*
+&
+T
+Content-Length: 9
+
+OkOkOk!!!
+
+#-->LOG_STACK 140559125260032: 6 (size)
+#st--> 5 : $0 
+T
+#st--> 4 : $1 
+13
+#st--> 3 : $2 v0 
+'GET
+/?ff=gg&tt=%D0%AD%D1%82%D0%BE%20%D0%B2%D1%81%D0%B5%20%D0%B5%D1%80%D1%83%D0%BD%D0%B4%D0%B0
+HTTP/1.1
+Host:
+10.100.22.5:5000
+Connection:
+keep-alive
+Cache-Control:
+max-age=0
+User-Agent:
+Mozilla/5.0
+(X11;
+Linux
+x86_64)
+AppleWebKit/537.11
+(KHTML,
+like
+Gecko)
+Chrome/23.0.1271.91
+Safari/537.11
+Accept:
+text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding:
+gzip,deflate,sdch
+Accept-Language:
+ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+Accept-Charset:
+windows-1251,utf-8;q=0.7,*;q=0.3'
+#st--> 2 : $3 v1 
+
+['GET /?ff=gg&tt=%D0%AD%D1%82%D0%BE%20%D0%B2%D1%81%D0%B5%20%D0%B5%D1%80%D1%83%D0%BD%D0%B4%D0%B0 HTTP/1.1
+Host: 10.100.22.5:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.91 Safari/537.11
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+Accept-Charset: windows-1251,utf-8;q=0.7,*;q=0.3',''
+]
+#st--> 1 : $4 v2 
+13
+#st--> 0 : $5 v10 v3 
+13
+#--<
+
+
+['H1*
+&
+T','OkOkOk!!!'
+]
+H1*
+&
+T
+Content-Length: 9
+
+OkOkOk!!!
+
+#-->LOG_STACK 140559045883648: 6 (size)
+#st--> 5 : $0 
+T
+#st--> 4 : $1 
+14
+#st--> 3 : $2 v0 
+'GET
+/favicon.ico
+HTTP/1.1
+Host:
+10.100.22.5:5000
+Connection:
+keep-alive
+Accept:
+*/*
+User-Agent:
+Mozilla/5.0
+(X11;
+Linux
+x86_64)
+AppleWebKit/537.11
+(KHTML,
+like
+Gecko)
+Chrome/23.0.1271.91
+Safari/537.11
+Accept-Encoding:
+gzip,deflate,sdch
+Accept-Language:
+ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+Accept-Charset:
+windows-1251,utf-8;q=0.7,*;q=0.3'
+#st--> 2 : $3 v1 
+
+['GET /favicon.ico HTTP/1.1
+Host: 10.100.22.5:5000
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.91 Safari/537.11
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+Accept-Charset: windows-1251,utf-8;q=0.7,*;q=0.3',''
+]
+#st--> 1 : $4 v2 
+14
+#st--> 0 : $5 v10 v3 
+14
+#--<
+
+
+#-->LOG_GLOBAL: 32 (size)
+A: 
+['e','-S100','eb.ef'
+]
+B: B
+F: F
+MAIN: ()
+MAIN.Aset: ()
+MAIN.adr: '10.100.22.5'
+MAIN.bc: UDP
+MAIN.cfg: 
+[
+ [ '10.100.22.5:5000','10.100.22.5:5001','10.100.22.5:5002'
+ ]
+]
+MAIN.cfgf: 'eb_h.cf'
+MAIN.cfmf: 'eb_m.cf'
+MAIN.ebhtm: 
+{
+}
+MAIN.ebhw: 
+{
+}
+MAIN.mcs: UT_111
+MAIN.mq: ()
+MAIN.nadr: '10.100.22.5:5000'
+MAIN.ob_f: ()
+MAIN.port: 5000
+MAIN.srv: 10
+MAIN.srv_f: ()
+MAIN.udp_send_f: ()
+MAIN.udpadr: '10.100.22.255:9097'
+MAIN.wrk_flg: 0
+N: N
+NL: '
+'
+R: R
+RP: RP
+SM: 
+{
+}
+T: T
+ZS: ''
+false: F
+null: N
+true: T
+#--<
+
+
+['10.100.22.5:5000',F,'5A180634000002'
+]

@@ -1,0 +1,2 @@
+#zip /opt/sublime_text/Packages/EF.sublime-package  EF.tmLanguage
+zip /opt/sublime_text/Packages/eF.sublime-package  ef.sublime-syntax

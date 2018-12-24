@@ -1,0 +1,13 @@
+'/opt/lib/libef_lev.so'LD
+
+0 db_tst db_tst'_tst'lv.N .
+
+100 ~( $'Ключь?= %09d'P  db_tst \ lv.S )
+
+0 lv.GL TS
+
+
+ls
+#---------------------
+E
+[(?? ) 300]TM
