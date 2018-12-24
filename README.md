@@ -34,9 +34,9 @@ E
 
 #### EF syntax [sourse](./ef_proj/ef_lang/ef_lang.cpp "ef_lang.cpp"):
 
-`lg` log Globals  
-`ls` log Stack  
-`l` print Top Stack var  
+`lg` log **Globals**  
+`ls` log **Stack**  
+`l` print **Top Stack** var  
 `#` **comment** to end of string  
 `##  ... ##` strings **comment**  
 `"some_characters..."` `'some_characters...'` **string**  
