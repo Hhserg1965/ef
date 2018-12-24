@@ -37,10 +37,10 @@ E
 `lg` log Globals  
 `ls` log Stack  
 `l` print Top Stack var  
-`#` *comment* to end of string  
-`##  ... ##` strings comment  
-`"some_characters..."` `'some_characters...'` string
-`[..]` array
+`#` **comment** to end of string  
+`##  ... ##` strings **comment**  
+`"some_characters..."` `'some_characters...'` **string**  
+`[..]` **array**  
 ```
 ['one','two',99,144]
 ```
