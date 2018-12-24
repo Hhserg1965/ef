@@ -1,22 +1,25 @@
-![hjs](./hjs.png "hjs <-> ej")
+![ef](./ef.png "EF (Efficient Functional)")
 
-### HyPER JAVA SCRIPT (hjs) and ExTENDED JAVA SCRIPT (ej)
-Like [Node.js](https://nodejs.org) are  the JavaScript runtimes built on Chrome's [V8](https://v8.dev/) JavaScript engine.  
+### EF (Efficient [Functional](https://en.wikipedia.org/wiki/Functional_programming)) or (Extended [FaLSE](https://esolangs.org/wiki/FALSE) ?) scripting language
 
-- No strong asinhronous operations 
-- easy
-- all in one with some plugins (easy)
+Some links for ***FALSE*** [#](http://wiki.c2.com/?FalseLanguage) [##](http://strlen.com/false-language/)  [###](https://ru.wikipedia.org/wiki/FALSE) 
+
+### About EF
+
+- replasment of [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) [Perl](https://en.wikipedia.org/wiki/Perl) [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)) ...
+- designing an as powerful language as possible with a tiny implementation
+- [stl](https://en.wikipedia.org/wiki/Standard_Template_Library) only 
+- threads support
+- timers
+- **os** functions
+- **sql** functions
+- **ip** functions
+- **ef** based on [uv](https://github.com/libuv/libuv)
 - easy make addons - plugins
-
-**hjs**  and **ej** are mostly compatible, but...
-
-**hjs** based on [QT4](https://www.qt.io/)  
-**ej** on [uv](https://github.com/libuv/libuv)
 
 ***Binary Releases for Debian*** [bin](./bin)
 
 Projects files on [Qt Creator](https://www.qt.io/)
-
 
 #### API hjs
 Look at [Bitches Brew](./bb.cpp  "bb.cpp ")  as [Miles](https://en.wikipedia.org/wiki/Miles_Davis) and find some...  
@@ -25,18 +28,11 @@ linked with `-lcurl -lz -lv8 QT += core gui sql webkit`
 [fever test example](./bin/in.js) [screenshorts](./screens) [1](./screens/1.png)
 [2](./screens/2.png) [3](./screens/3.png)
 
-#### API je
-
-no many differences with **hjs** [look and see](./ej_proj/js_main.cpp "js_main.cpp")  
-linked with `-lmemcached -lmemcachedutil -lz -luv -lv8 -lpq`   
-[strongly hallo  example](./bin/in_ej.js "in_ej.js")
 
 #### Plugins
 
-[leveldb core](./plugins/leveldbjs/levw.cpp "levw.cpp") **->** [leveldb example](./bin/t_levw.js "t_levw.js")
+[leveldb core](./ef_proj/ef_lev/ef_lev.cpp "ef_lev.cpp") **->** [leveldb example](./bin/lev.ef "lev.ef")
 
 [***License***](https://www.gnu.org/licenses/gpl.html "GPL")
 
 [mail](mailto:hserg1965@rambler.ru "Send...")
-
-
