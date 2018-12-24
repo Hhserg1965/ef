@@ -23,12 +23,14 @@ Some links for ***FALSE*** [#](http://wiki.c2.com/?FalseLanguage) [##](http://st
 Projects files on [Qt Creator](https://www.qt.io/)
 
 ####Hallo
-`(aa bb bb)mq
+```
+(aa bb bb)mq
 20 N ~(v0 '%.f HALLO!'P l)
 20 ~(v0 '%.f HALLO!'P l)
 #[(?? ) 100]TM
 #PID $ l KILL
-E`
+E
+```
 
 #### EF syntax [sourse](./ef_proj/ef_lang/ef_lang.cpp "ef_lang.cpp"):
 
