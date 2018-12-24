@@ -21,12 +21,12 @@ Some links for ***FALSE*** [#](http://wiki.c2.com/?FalseLanguage) [##](http://st
 
 Projects files on [Qt Creator](https://www.qt.io/)
 
-#### EF syntax [sourse](./ef_proj/ef_lang/ef_lang.cpp "ef_lang.cpp")
+#### EF syntax [sourse](./ef_proj/ef_lang/ef_lang.cpp "ef_lang.cpp"):
 
 `lg` log Globals  
 `ls` log Stack  
 `l` print Top Stack var  
-`#` comment to end of string
+`#` comment to end of string  
 `##  ... ##` string comment
 
 
