@@ -39,6 +39,7 @@ E
 `l` print **Top Stack** var  
 `#` **comment** to end of string  
 `##  ... ##` strings **comment**  
+`,:\n\r\s` **spacers**
 `"some_characters..."` `'some_characters...'` **string**  
 `[..]` **array**  
 ```
@@ -51,7 +52,7 @@ E
 '66'555 'm' [{} 44 55 []] '111'1 '8' 'fgsdgsd'} #ls
 ``` 
 
-`(..)` functional literal
+`(..)` **functional literal**
 
 
 #### Plugins
