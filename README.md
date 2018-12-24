@@ -21,12 +21,11 @@ Some links for ***FALSE*** [#](http://wiki.c2.com/?FalseLanguage) [##](http://st
 
 Projects files on [Qt Creator](https://www.qt.io/)
 
-#### API hjs
-Look at [Bitches Brew](./bb.cpp  "bb.cpp ")  as [Miles](https://en.wikipedia.org/wiki/Miles_Davis) and find some...  
-**hjs** have a graphical user interface [gui.cpp](./gui.cpp)  
-linked with `-lcurl -lz -lv8 QT += core gui sql webkit`  
-[fever test example](./bin/in.js) [screenshorts](./screens) [1](./screens/1.png)
-[2](./screens/2.png) [3](./screens/3.png)
+#### EF syntax [sourse](./ef_proj/ef_lang/ef_lang.cpp "ef_lang.cpp")
+
+`lg` log Globals  
+`ls` log Stack
+`l` print Top Stack var
 
 
 #### Plugins
