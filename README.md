@@ -39,7 +39,7 @@ E
 `l` print **Top Stack** var  
 `#` **comment** to end of string  
 `##  ... ##` strings **comment**  
-`,:\n\r\s` **spacers**
+`,:\n\r\s` **spacers**  
 `"some_characters..."` `'some_characters...'` **string**  
 `[..]` **array**  
 ```
