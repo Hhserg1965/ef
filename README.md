@@ -24,8 +24,10 @@ Projects files on [Qt Creator](https://www.qt.io/)
 #### EF syntax [sourse](./ef_proj/ef_lang/ef_lang.cpp "ef_lang.cpp")
 
 `lg` log Globals  
-`ls` log Stack
-`l` print Top Stack var
+`ls` log Stack  
+`l` print Top Stack var  
+`#` comment to end of string
+`##  ... ##` string comment
 
 
 #### Plugins
