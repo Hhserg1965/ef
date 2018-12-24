@@ -10,13 +10,13 @@ Some links for ***FALSE*** [#](http://wiki.c2.com/?FalseLanguage) [##](http://st
 - designing an as powerful language as possible with a tiny implementation
 - [stl](https://en.wikipedia.org/wiki/Standard_Template_Library) only 
 - stack based [Reverse Polish notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
-- threads support
-- timers
+- ***threads*** support
+- ***timers***
 - **os** functions
 - **sql** functions
 - **ip** functions
 - **ef** based on [uv](https://github.com/libuv/libuv)
-- easy make addons - plugins
+- easy make addons - ***plugins***
 
 ***Binary Releases for Debian*** [bin](./bin)
 
