@@ -52,7 +52,10 @@ E
 '66'555 'm' [{} 44 55 []] '111'1 '8' 'fgsdgsd'} #ls
 ``` 
 
-`(..)` **functional literal**
+`(..)` **functional literal**  
+```
+(?? RD l % 0 SL RP)
+```
 
 
 #### Plugins
