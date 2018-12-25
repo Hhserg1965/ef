@@ -56,6 +56,9 @@ E
 ```
 (?? RD l % 0 SL RP)
 ```
+`some_not_used_string` **Atom** (Global Key for some...)  
+*Known Globals* `A` ARGV `T` True `F` False `N` Nil `R` Return `B` Break `RP` Repeate  
+
 
 
 #### Plugins
