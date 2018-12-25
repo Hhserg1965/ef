@@ -59,10 +59,18 @@ E
 `some_not_used_string` **Atom** (Global Key for some...)  
 **Known Globals:** `A` ARGV `T` True `F` False `N` Nil `R` Return `B` Break `RP` Repeate  
 **Known Functions:**
-- `er` `l` `lT` `lF` `ls` `lg` `TS` (to string) `FS` (from string) `SP` (split) `JN`(join) `P` (printf-like)
+- `er` `l` `lT` `lF` `ls` `lg` `TS` (to string) `FS` (from string) `SP` (split) `JN`(join) `P` (printf-like) `L` (length) `C` (clear)
 - `?` if `~` iterator (all are not easy)
 - `Q M S D` make deQue , Map , String , Double ( C+CMD Constant...)
+- `$(...)` dup `%` drop `%<` drop all to initial function call `\` swap `@(...)` to top from begin `v(...)` to top from calling tree `.(...)` Sets! 
 
+- `+` plus... `-` minus `*` mul... `/` div `//` % `^` named function to stack `++` `--` `SR` sort `RS` revers sort
+-  `& | ! > < >= <= != = =N !N`
+-  `??` must Quit?->return `E` exit `SL` sleep
+- `TM` timer
+  ```
+  [(?? N RD $ N != ?(ls i.f5) ) 100]TM
+  ```
 
 #### Plugins
 
