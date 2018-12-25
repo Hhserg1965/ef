@@ -6,7 +6,7 @@ Some links for ***FALSE*** [#](http://wiki.c2.com/?FalseLanguage) [##](http://st
 
 ### About EF
 
-- replasment of [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) [Perl](https://en.wikipedia.org/wiki/Perl) [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)) ...
+- replasment of [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) [Perl](https://en.wikipedia.org/wiki/Perl) [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)) ... :)
 - designing an as ***powerful language*** as possible with a tiny implementation
 - [stl](https://en.wikipedia.org/wiki/Standard_Template_Library) only 
 - stack based [Reverse Polish notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
@@ -59,7 +59,8 @@ E
 `some_not_used_string` **Atom** (Global Key for some...)  
 *Known Globals:* `A` ARGV `T` True `F` False `N` Nil `R` Return `B` Break `RP` Repeate  
 **Known Functions:**
-- `er` `l` `lT` `lF` `ls` `lg` `TS` (to string) `FS` (from string) `SP` (split) `JN`()
+- `er` `l` `lT` `lF` `ls` `lg` `TS` (to string) `FS` (from string) `SP` (split) `JN`(join)
+- `?` if `~` iterator
 
 
 #### Plugins
