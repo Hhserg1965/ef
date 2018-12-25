@@ -80,7 +80,7 @@ E
 - **SQL** `DB SQL EX !! NX >> PR ER RW`
 - **ip** ...
 - `INC` **include script** `LD` load **Plugin**
-- **egExp PCRE** `RE REQ`
+- **regExp PCRE** `RE REQ`
 - **Spawn** `sp.N sp.A sp.K`
 
 #### Plugins
