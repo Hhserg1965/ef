@@ -52,15 +52,16 @@ E
 '66'555 'm' [{} 44 55 []] '111'1 '8' 'fgsdgsd'} #ls
 ``` 
 
-`(..)` **functional literal**  
+`(..)` **functional literal**  (after this stack stay the same!)
 ```
 (?? RD l % 0 SL RP)
 ```
 `some_not_used_string` **Atom** (Global Key for some...)  
-*Known Globals:* `A` ARGV `T` True `F` False `N` Nil `R` Return `B` Break `RP` Repeate  
+**Known Globals:** `A` ARGV `T` True `F` False `N` Nil `R` Return `B` Break `RP` Repeate  
 **Known Functions:**
-- `er` `l` `lT` `lF` `ls` `lg` `TS` (to string) `FS` (from string) `SP` (split) `JN`(join)
-- `?` if `~` iterator
+- `er` `l` `lT` `lF` `ls` `lg` `TS` (to string) `FS` (from string) `SP` (split) `JN`(join) `P` (printf-like)
+- `?` if `~` iterator (all are not easy)
+- `Q M S D` make deQue , Map , String , Double ( C+CMD Constant...)
 
 
 #### Plugins
