@@ -87,6 +87,11 @@ E
 
 [leveldb core](./ef_proj/ef_lev/ef_lev.cpp "ef_lev.cpp") **->** [leveldb example](./bin/lev.ef "lev.ef")
 
+#### Examples
+
+[Only Look and see](./tst.ef "tst.ef") 
+
+
 [***License***](https://www.gnu.org/licenses/gpl.html "GPL")
 
 [mail](mailto:hserg1965@rambler.ru "Send...")
