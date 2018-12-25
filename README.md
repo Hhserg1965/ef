@@ -71,6 +71,17 @@ E
   ```
   [(?? N RD $ N != ?(ls i.f5) ) 100]TM
   ```
+- `TH` thread
+  ```
+  [(?? RD l % 0 SL RP) bc]TH
+  ```
+- `LC` make Locker `RL WL RU WU`
+- **OS functions** `RM REN MKD DIR CDIR PID KILL RD RDB WR`
+- **SQL** `DB SQL EX !! NX >> PR ER RW`
+- **ip** ...
+- `INC` *include* `LD` load *Plugin*
+- **egExp PCRE** `RE REQ`
+- **Spawn** `sp.N sp.A sp.K`
 
 #### Plugins
 
