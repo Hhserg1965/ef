@@ -79,7 +79,7 @@ E
 - **OS functions** `RM REN MKD DIR CDIR PID KILL RD RDB WR`
 - **SQL** `DB SQL EX !! NX >> PR ER RW`
 - **ip** ...
-- `INC` *include* `LD` load *Plugin*
+- `INC` **include script** `LD` load **Plugin**
 - **egExp PCRE** `RE REQ`
 - **Spawn** `sp.N sp.A sp.K`
 
