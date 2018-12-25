@@ -57,8 +57,9 @@ E
 (?? RD l % 0 SL RP)
 ```
 `some_not_used_string` **Atom** (Global Key for some...)  
-*Known Globals* `A` ARGV `T` True `F` False `N` Nil `R` Return `B` Break `RP` Repeate  
-
+*Known Globals:* `A` ARGV `T` True `F` False `N` Nil `R` Return `B` Break `RP` Repeate  
+**Known Functions:**
+- `er` `l` `lT` `lF` `ls` `lg` `TS` (to string) `FS` (from string) `SP` (split) `JN`()
 
 
 #### Plugins
